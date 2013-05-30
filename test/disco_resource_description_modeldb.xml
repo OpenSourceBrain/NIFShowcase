@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resource_description
+		version="1"
+		about="http://big.sfn.org/ndg/nic/ic/resDesc1.htm">
+	<name>ModelDB</name>
+	<description>Neuronal and Network Models</description>
+	<version>8</version>
+	<version_date>4/20/2006 7:00:14 PM</version_date>
+	<attributes>
+		<att name="notes" description="ModelDB provides an accessible location for storing and efficiently retrieving compartmental neuron models.">
+			<att_value value="" />
+		</att>
+		<att name="dbCategory" description="Database Categories">
+			<att_value value="Experimental Data" />
+		</att>
+		<att name="access" description="Access type to the database">
+			<att_value value="Public" />
+			<att_value value="Public registered" />
+		</att>
+		<att name="url" description="Link to database Web site">
+			<att_value value="http://senselab.med.yale.edu/senselab/ModelDB" />
+		</att>
+		<att name="project_contact" description="Project contact">
+			<att_value value="Gordon Shepherd (gordon.shepherd@yale.edu)" />
+		</att>
+		<att name="db_contact" description="DB contact">
+			<att_value value="Tom Morse (tom.morse@yale.edu)" />
+		</att>
+		<att name="institution" description="Institution">
+			<att_value value="Yale Center for Medical Informatics" />
+		</att>
+		<att name="categories" description="Categories">
+			<att_value value="Cortex" />
+			<att_value value="Cellular/Molecular" />
+			<att_value value="Receptor" />
+			<att_value value="Dendrites" />
+			<att_value value="Olfactory" />
+			<att_value value="Cerebellum" />
+			<att_value value="Ion Channel" />
+		</att>
+		<att name="clinical_cond" description="Clinical conditions">
+			<att_value value="Parkinson's dissease" />
+			<att_value value="Epilepsy" />
+		</att>
+		<att name="species" description="Species">
+			<att_value value="Human" />
+			<att_value value="Mouse" />
+			<att_value value="Rat" />
+			<att_value value="Other invertebrate" />
+		</att>
+		<att name="support_agency" description="Supporting Agencies">
+			<att_value value="NIH" />
+			<att_value value="NIMH" />
+			<att_value value="NSF" />
+			<att_value value="NIDCD" />
+		</att>
+		<att name="Project_Principal_Investigator" description="">
+			<att_value value="Gordon Shepherd (gordon.shepherd@yale.edu)" />
+		</att>
+		<att name="interop" description="Discovery Interop URI">
+			<att_value value="http://senselab.med.yale.edu/senselab/modeldb" />
+		</att>
+	</attributes>
+</resource_description>
