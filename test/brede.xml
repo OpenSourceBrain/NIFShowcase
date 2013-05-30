@@ -1,0 +1,157 @@
+<disco format="disco.interop" format-version="1.0">
+    <site-info
+        nif-id="nif-0000-00064"
+        site-name="Brede"
+        site-longname="Brede Database"
+        site-url="http://hendrix.imm.dtu.dk/services/jerne/brede/"
+        version="" />
+
+    <interfaces>
+        <interface-group
+            id="brede"
+            name="Brede"
+            comment="Brede Database"
+            baseurl="http://hendrix.imm.dtu.dk/services/jerne/brede/" 
+            revision-date="20120301, 20130509" >
+	 
+            <interface
+                id="wobib"
+                name="Wobib"
+                comment="wobib"
+                interface-type="data"
+                pk-separator="_"
+                targeturl="http://neuro.imm.dtu.dk/services/brededatabase/wobibs.xml" 
+            >
+                <parameters>
+                    <parameter IOtype="o" id="wobib_id"     name="ID"                datatype="integer"                   description="" pk="1"/>
+                    <parameter IOtype="o" id="pmid"         name="Pubmed ID"         datatype="string"  precision="20"    description="" />
+                    <parameter IOtype="o" id="title"        name="Title"             datatype="string"  precision="500"   description="" />
+                    <parameter IOtype="o" id="ui"           name="UI Number"         datatype="integer"                   description="" />
+                    <parameter IOtype="o" id="volume"       name="Volume"            datatype="string"  precision="20"    description="" />
+                    <parameter IOtype="o" id="year"         name="Year"              datatype="integer"                   description="" />
+                    <parameter IOtype="o" id="abstract"     name="Abstract"          datatype="string"  precision="5000"  description="" />
+                    <parameter IOtype="o" id="keywords"     name="Keywords"          datatype="string"  precision="1000"  description="" />
+                </parameters>
+                <input/>
+                <output >
+                    <format
+                        type="xml"
+                        container="Bib" parse-type="sax"/>
+                    <parameter idref="wobib_id"     container="wobib"        container-type="text" />
+                    <parameter idref="pmid"         container="pmid"         container-type="text" />          
+                    <parameter idref="title"        container="title"        container-type="text" >
+                        <replace method="regex" search="\n +" by=" " />
+                    </parameter>
+                    <parameter idref="ui"           container="ui"           container-type="text" />
+                    <parameter idref="volume"       container="volume"       container-type="text" />
+                    <parameter idref="year"         container="year"         container-type="text" />
+                    <parameter idref="abstract"     container="abstract"     container-type="text">
+                        <replace method="regex" search="\n +" by=" " />
+                    </parameter>
+                    <parameter idref="keywords"     container="keywords"     container-type="text" />
+                </output>
+            </interface>
+
+            <interface
+                id="wobib_author"
+                name="Wobib Author"
+                comment="wobib author"
+                interface-type="data"
+                pk-separator="_"
+                targeturl="http://neuro.imm.dtu.dk/services/brededatabase/wobibs.xml" 
+            >
+                <parameters>
+                    <parameter IOtype="o" id="wobib_id"     name="Wobib ID"          datatype="integer"                  description="" pk="1" />
+                    <parameter IOtype="o" id="surname"      name="Surname"           datatype="string"  precision="20"   description="" />
+                    <parameter IOtype="o" id="firstname"    name="First Name"        datatype="string"  precision="20"   description="" />
+                    <parameter IOtype="o" id="name"         name="Name"              datatype="string"  precision="40"   description="" />
+                    <parameter IOtype="o" id="keyname"      name="Keyname"           datatype="string"  precision="30"   description="" pk="2" />
+                    <parameter IOtype="o" id="initials"     name="Initials"          datatype="string"  precision="10"   description="" />
+                </parameters>
+                <input/>
+                <output >
+                    <format type="xml" container="Bib" item-container="Author" parse-type="sax" />
+          
+                    <parameter idref="wobib_id"     container="../wobib"      container-type="text" />
+                    <parameter idref="suname"       container="surname"       container-type="text" />          
+                    <parameter idref="firstname"    container="firstname"     container-type="text" />
+                    <parameter idref="name"         container="name"          container-type="text" />
+                    <parameter idref="keyname"      container="keyname"       container-type="text" />
+                    <parameter idref="initials"     container="initials"      container-type="text" />
+                </output>
+            </interface>
+
+            <interface
+                id="wobib_exp"
+                name="Wobib Exp"
+                comment="wobib exp"
+                interface-type="data"
+                pk-separator="_"
+                targeturl="http://neuro.imm.dtu.dk/services/brededatabase/wobibs.xml" 
+            >
+                <parameters>
+                    <parameter IOtype="o" id="wobib_id"               name="Wobib ID"                datatype="integer"                    description="" />
+                    <parameter IOtype="o" id="woexp"                  name="Woexp"                   datatype="integer"                    description="" pk="1"/>
+                    <parameter IOtype="o" id="capsule_description"    name="capsule_description"     datatype="string"  precision="200"    description="" />
+                    <parameter IOtype="o" id="free_form_desc"         name="Free Form Description"   datatype="string"  precision="500"    description="" />
+                    <parameter IOtype="o" id="specific_task"          name="Specific Task"           datatype="string"  precision="200"    description="" />
+                    <parameter IOtype="o" id="number_of_subjects"     name="Number of Subject"       datatype="integer"                    description="" />
+                    <parameter IOtype="o" id="modality"               name="Modality"                datatype="string"  precision="200"    description="" />
+                    <parameter IOtype="o" id="behavioral_domain"      name="Behavioral Domain"       datatype="string"  precision="200"    description="" />          
+                </parameters>
+                <input/>
+                <output >
+                    <format
+                        type="xml" container="Bib" item-container="Exp" parse-type="sax"
+                    />
+                    <parameter idref="wobib_id"            container="../wobib"             container-type="text" />
+                    <parameter idref="woexp"               container="woexp"                container-type="text" />          
+                    <parameter idref="capsule_description" container="capsuleDescription"   container-type="text"  >
+                        <replace method="regex" search="\n +" by=" " />
+                    </parameter>
+                    <parameter idref="free_form_desc"      container="freeFormDescription"  container-type="text" >
+                        <replace method="regex" search="\n +" by=" " />
+                    </parameter>
+                    <parameter idref="specific_task"       container="specificTask"         container-type="text" />
+                    <parameter idref="number_of_subjects"  container="numberOfSubjects"     container-type="text" />
+                    <parameter idref="modality"            container="modality"             container-type="text" />
+                    <parameter idref="behavioral_domain"   container="behavioralDomain"     container-type="text" multiple="yes" multiple-separator=";" >
+                        <replace method="regex" search="\n +" by=" " />
+                    </parameter>					
+                </output>
+            </interface>
+
+            <interface
+                id="wobib_exp_loc"
+                name="Wobib Exp Loc"
+                comment="wobib exp loc"
+                interface-type="data"
+                pk-hash="yes"
+                targeturl="http://neuro.imm.dtu.dk/services/brededatabase/wobibs.xml" 
+            >
+                <parameters>
+                    <parameter IOtype="o" id="wobib_exp_id"   name="Wobib Exp ID"    datatype="integer"                    description="" />
+                    <parameter IOtype="o" id="lobar_anatomy"  name="Lobar Anatomy"   datatype="string"  precision="200"    description="" />
+                    <parameter IOtype="o" id="funtional_area" name="Functional Area" datatype="string"  precision="200"    description="" />
+                    <parameter IOtype="o" id="x"              name="x"               datatype="double"                     description="" />
+                    <parameter IOtype="o" id="y"              name="y"               datatype="double"                     description="" />
+                    <parameter IOtype="o" id="z"              name="z"               datatype="double"                     description="" />
+                </parameters>
+                <input/>
+                <output >
+                    <format
+                        type="xml" container="Bib" item-container="Exp/Loc" parse-type="sax"
+                    />
+                    <parameter idref="wobib_exp_id"           container="../woexp"        container-type="text" />
+                    <parameter idref="lobar_anatomy"          container="lobarAnatomy"    container-type="text" />
+                    <parameter idref="functional_area"        container="functionalArea"  container-type="text" />					          
+                    <parameter idref="x"                      container="x"               container-type="text" />
+                    <parameter idref="y"                      container="y"               container-type="text" />
+                    <parameter idref="z"                      container="z"               container-type="text" />
+                </output>
+            </interface>
+        </interface-group>
+		
+    </interfaces>
+  
+</disco>

@@ -1,0 +1,2101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects total_count="60" offset="0" limit="25" type="array">
+    <project>
+        <id>24</id>
+        <name>Basal ganglia modelling</name>
+        <identifier>basalgangliamodelling</identifier>
+        <description>Information on projects containing cell and network models of the basal ganglia in the OSB.
+
+            See the [[Wiki]] for more details.</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value/>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Theme</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value/>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value/>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value/>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value/>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value/>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value/>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value/>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value/>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value/>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value/>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value/>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value/>
+            </custom_field>
+        </custom_fields>
+        <created_on>2012-05-21T17:44:17Z</created_on>
+        <updated_on>2012-07-07T13:31:45Z</updated_on>
+    </project>
+    <project>
+        <id>64</id>
+        <name>Bluehive Showcase</name>
+        <identifier>bluehive-showcase</identifier>
+        <description>A project for exchanging ideas on how best to run LEMS/NeuroML models on the FPGA based Bluehive hardware being developed in Cambridge.
+
+            See the [[Wiki]] for more details.</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value>v1.x</value>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Showcase</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value>https://github.com/OpenSourceBrain/BluehiveShowcase.git</value>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Vertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Mammalian</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value/>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value/>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value/>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value>1</value>
+            </custom_field>
+        </custom_fields>
+        <created_on>2013-05-26T17:54:25Z</created_on>
+        <updated_on>2013-05-28T17:10:24Z</updated_on>
+    </project>
+    <project>
+        <id>55</id>
+        <name>Brian Showcase</name>
+        <identifier>brianshowcase</identifier>
+        <description>!/attachments/download/54/brian1.png!
+
+            A repository for sharing example scripts for the Brian simulator. Also a testbed for interactions between "Brian":http://briansimulator.org/ and NeuroML/LEMS. </description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value>Brian</value>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value>v2.x</value>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Showcase</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value>https://github.com/OpenSourceBrain/BrianShowcase.git</value>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value>1</value>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value>In early stages of development</value>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Vertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Other</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value>Other</value>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value>1</value>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value>3</value>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value>1</value>
+            </custom_field>
+        </custom_fields>
+        <created_on>2013-04-12T16:10:03Z</created_on>
+        <updated_on>2013-05-03T09:11:16Z</updated_on>
+    </project>
+    <project>
+        <id>65</id>
+        <name>Cerebellar Granule cell modelling</name>
+        <identifier>cerebellar-granule-cell-modelling</identifier>
+        <description>A project to gather information on various models and experimental data sets related to the cerebellar granule cell.
+
+            See the [[Wiki]] for more details.</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value>v1.x</value>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Theme</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value/>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Vertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Mammalian</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value>Rodent</value>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value>Cerebellum</value>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value>Cerebellar granule cell</value>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value>1</value>
+            </custom_field>
+        </custom_fields>
+        <created_on>2013-05-28T13:48:23Z</created_on>
+        <updated_on>2013-05-28T13:49:34Z</updated_on>
+    </project>
+    <project>
+        <id>21</id>
+        <name>Cerebellar modelling</name>
+        <identifier>cerebellarmodelling</identifier>
+        <description>Information on projects containing cell and network models of the cerebellum in the OSB.
+
+            See the [[Wiki]] for more details.</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value/>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Theme</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value/>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value/>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value/>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value/>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value/>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value/>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value/>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value/>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value/>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value/>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value/>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value/>
+            </custom_field>
+        </custom_fields>
+        <created_on>2012-05-21T15:12:40Z</created_on>
+        <updated_on>2012-05-21T15:27:59Z</updated_on>
+    </project>
+    <project>
+        <id>63</id>
+        <name>FitzHugh Nagumo - FitzHugh 1969</name>
+        <identifier>fitzhugh-nagumo-fitzhugh-1969</identifier>
+        <description>The Fitzhugh Nagumo model is a two-dimensional simplification of the Hodgkin-Huxley model of spike generation in squid giant axons.  This system was suggested by FitzHugh (FitzHugh R. [1961]: Impulses and physiological states in theoretical models of nerve membrane.  Biophysical J.  1:445-466), who called it "Bonhoeffer-van der Pol model", and the equivalent circuit by Nagumo et al.  (Nagumo J., Arimoto S., and Yoshizawa S. [1962] An active pulse transmission line simulating    nerve axon. Proc IRE. 50:2061–2070.1962).
+
+            This version corresponds to the one described in FitzHugh R. [1969]: Mathematical models of excitation and propagation in nerve.  Chapter 1 (pp. 1–85 in H.P. Schwan, ed.  Biological Engineering, McGraw–Hill Book Co., N.Y.).</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value>v1.x</value>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Project</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value>https://github.com/borismarin/FitzHugh-Nagumo</value>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Vertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Mammalian</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value>Generic</value>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value>Other</value>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value>1</value>
+            </custom_field>
+        </custom_fields>
+        <created_on>2013-05-15T07:37:00Z</created_on>
+        <updated_on>2013-05-15T07:43:55Z</updated_on>
+    </project>
+    <project>
+        <id>20</id>
+        <name>Getting started</name>
+        <identifier>gettingstarted</identifier>
+        <description>A quick guide to getting started with the Open Source Brain Repository.
+
+            See the [[Wiki]] for more details.</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value/>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Guide</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value/>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Vertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Mammalian</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value>Other</value>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value/>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value/>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value/>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value/>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value/>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value/>
+            </custom_field>
+        </custom_fields>
+        <created_on>2012-05-14T16:48:38Z</created_on>
+        <updated_on>2013-01-12T14:00:26Z</updated_on>
+    </project>
+    <project>
+        <id>41</id>
+        <name>Getting started with Git &amp; GitHub</name>
+        <identifier>gitintro</identifier>
+        <description>This provides a brief overview for new users of Git and GitHub.
+
+            See the [[Wiki]] for more details.</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value/>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Guide</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value/>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Vertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Other</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value>Other</value>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value/>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value/>
+            </custom_field>
+        </custom_fields>
+        <created_on>2013-01-08T11:44:09Z</created_on>
+        <updated_on>2013-01-08T11:53:56Z</updated_on>
+    </project>
+    <project>
+        <id>28</id>
+        <name>Give feedback, report a bug, request a feature</name>
+        <identifier>feedback</identifier>
+        <description>Information on how to get in contact to provide feedback, to report an issue/bug or to request new features for the site. 
+
+            See the [[Wiki]] for more details.
+</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value/>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Guide</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value/>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Vertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Mammalian</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value>Other</value>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value/>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value/>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value/>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value/>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value/>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value/>
+            </custom_field>
+        </custom_fields>
+        <created_on>2012-07-12T14:12:38Z</created_on>
+        <updated_on>2013-01-07T14:27:04Z</updated_on>
+    </project>
+    <project>
+        <id>62</id>
+        <name>Hindmarsh and Rose 1984</name>
+        <identifier>hindmarshrose1984</identifier>
+        <description>The Hindmarsh Rose model consists of a fast spiking subsystem, which is a generalization of the Fitzhugh-Nagumo (aka Bonhoeffer-van der Pol) oscillator, coupled to a slower subsystem which allows the system to fire bursts of spikes.
+
+            Implemented according to:
+            Hindmarsh J. L., and Rose R. M. (1984) A model of neuronal bursting using three coupled first order differential equations. Proc. R. Soc. London, Ser. B 221:87–102.</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value>v2.x</value>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Project</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value>https://github.com/OpenSourceBrain/HindmarshRose1984.git</value>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value>2</value>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value>2</value>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value>In development...</value>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Vertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Mammalian</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value>Generic</value>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value>Other</value>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value>2</value>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value>1</value>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value>1</value>
+            </custom_field>
+        </custom_fields>
+        <created_on>2013-05-14T15:55:26Z</created_on>
+        <updated_on>2013-05-26T09:20:39Z</updated_on>
+    </project>
+    <project>
+        <id>23</id>
+        <name>Hippocampal modelling</name>
+        <identifier>hippocampalmodelling</identifier>
+        <description>Information on projects containing cell and network models of the hippocampus in the OSB.
+
+            See the [[Wiki]] for more details.</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value/>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Theme</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value/>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value/>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value/>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value/>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value/>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value/>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value/>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value/>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value/>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value/>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value/>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value/>
+            </custom_field>
+        </custom_fields>
+        <created_on>2012-05-21T15:40:56Z</created_on>
+        <updated_on>2012-05-21T15:40:56Z</updated_on>
+    </project>
+    <project>
+        <id>29</id>
+        <name>Interactions with other Neuroinformatics resources</name>
+        <identifier>neuroinformatics</identifier>
+        <description>Information on how the Open Source Brain repository interacts with other resources in the "neuroinformatics":http://www.incf.org/about/what-is-neuroinformatics and wider computational biology fields.
+
+            See the [[Wiki]] for more details.</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value/>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Guide</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value/>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value/>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value/>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value/>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value/>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value/>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value/>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value/>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value/>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value/>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value/>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value/>
+            </custom_field>
+        </custom_fields>
+        <created_on>2012-07-18T17:31:18Z</created_on>
+        <updated_on>2012-07-18T17:34:08Z</updated_on>
+    </project>
+    <project>
+        <id>58</id>
+        <name>Multiscale Medium Spiny Neuron - Mattioni and Le Novere</name>
+        <identifier>multiscale-medium-spiny-neuron-mattioni-and-le-novere</identifier>
+        <description/>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value>v1.x</value>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Project</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value>https://github.com/mattions/TimeScales</value>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Vertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Mammalian</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value>Rodent</value>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value>Basal ganglia</value>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value>Striatal Spiny Projection Neuron</value>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value>1</value>
+            </custom_field>
+        </custom_fields>
+        <created_on>2013-04-16T21:57:43Z</created_on>
+        <updated_on>2013-04-16T21:57:43Z</updated_on>
+    </project>
+    <project>
+        <id>56</id>
+        <name>MUSIC Showcase</name>
+        <identifier>musicshowcase</identifier>
+        <description>"MUlti-SImulation Coordinator, MUSIC, ":http://incf.org/core/programs/modeling/projects/music/music-multi-simulation-coordinator/ is a software that allows large scale neuron simulators to communicate during runtime. 
+
+            This OSB Showcase project will highlight some of the examples in development to illustrate its functionality. 
+
+        </description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value>MUSIC</value>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value>v1.x</value>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Showcase</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value>https://github.com/OpenSourceBrain/MUSICShowcase.git</value>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value>In development</value>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Vertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Mammalian</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value/>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value/>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value/>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value>1</value>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value>1</value>
+            </custom_field>
+        </custom_fields>
+        <created_on>2013-04-16T12:17:15Z</created_on>
+        <updated_on>2013-04-16T12:23:49Z</updated_on>
+    </project>
+    <project>
+        <id>22</id>
+        <name>Neocortical modelling</name>
+        <identifier>corticalmodelling</identifier>
+        <description>Information on projects containing cell and network models of the neocortex in the OSB.
+
+            See the [[Wiki]] for more details.</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value/>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Theme</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value/>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value/>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value/>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value/>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value/>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value/>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value/>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value/>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value/>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value/>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value/>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value/>
+            </custom_field>
+        </custom_fields>
+        <created_on>2012-05-21T15:29:03Z</created_on>
+        <updated_on>2012-05-21T15:29:35Z</updated_on>
+    </project>
+    <project>
+        <id>25</id>
+        <name>Neuronal simulators for OSB models</name>
+        <identifier>simulators</identifier>
+        <description>A list of the main neuronal simulators for models in the Open Source Brain Repository.
+
+            See the [[Wiki]] for more details.</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value/>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Guide</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value/>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value/>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value/>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value/>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value/>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value/>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value/>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value/>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value/>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value/>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value/>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value/>
+            </custom_field>
+        </custom_fields>
+        <created_on>2012-05-22T08:32:54Z</created_on>
+        <updated_on>2012-05-22T08:35:01Z</updated_on>
+    </project>
+    <project>
+        <id>66</id>
+        <name>NIF Showcase</name>
+        <identifier>nifshowcase</identifier>
+        <description>A repository for scripts and configuration files to enable interaction between "NIF":https://www.neuinfo.org and OSB</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value>v1.x</value>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Showcase</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value>https://github.com/OpenSourceBrain/NIFShowcase.git</value>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Vertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Mammalian</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value/>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value/>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value/>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value>1</value>
+            </custom_field>
+        </custom_fields>
+        <created_on>2013-05-30T16:21:39Z</created_on>
+        <updated_on>2013-05-30T16:21:39Z</updated_on>
+    </project>
+    <project>
+        <id>54</id>
+        <name>NineML Showcase</name>
+        <identifier>ninemlshowcase</identifier>
+        <description>!/attachments/download/53/image_mini.png!
+
+            Examples of models in NineML and conversion to/from NeuroML/LEMS</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value>XML</value>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value>v1.x</value>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Showcase</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value>https://github.com/OpenSourceBrain/NineMLShowcase.git</value>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value>1</value>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value>Testing mapping NineML to NeuroML/LEMS</value>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Other</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value>Other</value>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value>1</value>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value>1</value>
+            </custom_field>
+        </custom_fields>
+        <created_on>2013-04-12T15:35:52Z</created_on>
+        <updated_on>2013-04-12T15:39:27Z</updated_on>
+    </project>
+    <project>
+        <id>57</id>
+        <name>Olfactory Bulb</name>
+        <identifier>olfactory-bulb</identifier>
+        <description>A detailed network model of part of the rat olfactory bulb comprising compartmental mitral, granule and PG cells developed by Aditya Gilra and Upinder S. Bhalla (manuscript in preparation, 16 Apr 2013). The cell morphologies and network connections are in NeuroML v1.8.</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value>MOOSE</value>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value>v1.x</value>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Project</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value>https://github.com/adityagilra/olfactory-bulb.git</value>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value>1</value>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Vertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Mammalian</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value>Rodent</value>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value>Olfactory bulb</value>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value>Network model</value>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value>1</value>
+            </custom_field>
+        </custom_fields>
+        <created_on>2013-04-16T13:59:06Z</created_on>
+        <updated_on>2013-04-16T13:59:06Z</updated_on>
+    </project>
+    <project>
+        <id>61</id>
+        <name>OSBMeeting2013 - Piasini and Cantarelli</name>
+        <identifier>osbmeeting2013-piasini-and-cantarelli</identifier>
+        <description>Simple test project which was used for a live demo at "OSB 2013":http://www.opensourcebrain.org/projects/osb/wiki/Meetings.</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value>v1.x</value>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Project</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value>https://github.com/tarelli/OSBMeeting2013.git</value>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Vertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Mammalian</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value/>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value/>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value/>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value>0</value>
+            </custom_field>
+        </custom_fields>
+        <created_on>2013-05-14T14:09:46Z</created_on>
+        <updated_on>2013-05-28T11:05:05Z</updated_on>
+    </project>
+    <project>
+        <id>59</id>
+        <name>SBML Showcase</name>
+        <identifier>sbmlshowcase</identifier>
+        <description>!/attachments/download/55/Official-sbml-supported-70.jpg!
+
+            OSB showcase of interactions between SBML and NeuroML</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value>v1.x</value>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Showcase</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value>https://github.com/OpenSourceBrain/SBMLShowcase.git</value>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Vertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Mammalian</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value/>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value/>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value/>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value>1</value>
+            </custom_field>
+        </custom_fields>
+        <created_on>2013-05-03T10:11:32Z</created_on>
+        <updated_on>2013-05-08T14:15:34Z</updated_on>
+    </project>
+    <project>
+        <id>34</id>
+        <name>Setting up a new project</name>
+        <identifier>testprojecu</identifier>
+        <description>Guide to starting a new project in Open Source Brain.
+
+            See the [[Wiki]] for more details.
+</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value>v1.x</value>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Guide</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value/>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value>Guide in active development...</value>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Invertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Other</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value>Test</value>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value>Other</value>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value/>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value/>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value/>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value/>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value/>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value/>
+            </custom_field>
+        </custom_fields>
+        <created_on>2012-10-16T11:02:44Z</created_on>
+        <updated_on>2012-10-16T12:36:30Z</updated_on>
+    </project>
+    <project>
+        <id>33</id>
+        <name>TestProject</name>
+        <identifier>testproject</identifier>
+        <description>This is a project for testing various aspects of OSB. </description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value>v1.x</value>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>OSB</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value/>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>0</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Invertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Other</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value>Test</value>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value>Other</value>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value/>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value/>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value/>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value/>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value/>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value/>
+            </custom_field>
+        </custom_fields>
+        <created_on>2012-10-10T15:15:07Z</created_on>
+        <updated_on>2012-10-10T15:15:07Z</updated_on>
+    </project>
+    <project>
+        <id>2</id>
+        <name>The Open Source Brain repository</name>
+        <identifier>osb</identifier>
+        <description>For a quick guide to using the Open Source Brain repository, see: project:gettingstarted.
+
+            For info on the background to the project see "About":/about.</description>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value/>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value/>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>OSB</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value/>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value/>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Vertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Mammalian</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value>Test</value>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value>Other</value>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value>None</value>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value/>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value/>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value/>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value/>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value/>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value/>
+            </custom_field>
+        </custom_fields>
+        <created_on>2011-03-18T13:59:54Z</created_on>
+        <updated_on>2012-07-19T12:29:58Z</updated_on>
+    </project>
+    <project>
+        <id>35</id>
+        <name>Celegans Neuromechanical Gait Modulation - Boyle  Berri Cohen 2012</name>
+        <identifier>celegansneuromechanicalgaitmodulation</identifier>
+        <description>!http://www.opensourcebrain.org/attachments/download/33/Selection_095.png!
+
+            A model of C. elegans locomotion described in Boyle, Berri and Cohen, "Gait modulation in C. elegans: an integrated neuromechanical model":http://www.frontiersin.org/Computational_Neuroscience/10.3389/fncom.2012.00010/abstract, Front. Comput. Neurosci., 2012.</description>
+        <parent id="2" name="The Open Source Brain repository"/>
+        <custom_fields type="array">
+            <custom_field id="1" name="Original format">
+                <value>C++</value>
+            </custom_field>
+            <custom_field id="6" name="NeuroML version">
+                <value>v1.x</value>
+            </custom_field>
+            <custom_field id="7" name="ModelDB reference">
+                <value/>
+            </custom_field>
+            <custom_field id="12" name="Category">
+                <value>Project</value>
+            </custom_field>
+            <custom_field id="14" name="GitHub repository">
+                <value>https://github.com/OpenSourceBrain/CelegansNeuromechanicalGaitModulation</value>
+            </custom_field>
+            <custom_field id="15" name="NeuroML v1.x support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="16" name="NEURON support">
+                <value/>
+            </custom_field>
+            <custom_field id="17" name="GENESIS 2 support">
+                <value/>
+            </custom_field>
+            <custom_field id="18" name="MOOSE support">
+                <value/>
+            </custom_field>
+            <custom_field id="19" name="NeuroML v2.x support">
+                <value/>
+            </custom_field>
+            <custom_field id="21" name="Status info">
+                <value>In early stages of development. Originally in C++, many elements, but not all, can be converted to NeuroML. 
+
+                    First activity will be to get "the model":http://www.frontiersin.org/Journal/DownloadFile.ashx?sup=1&amp;articleId=17123&amp;FileId=48074&amp;FileName=WormSim1.ZIP&amp;contentType=Data%20Sheet&amp;contentTypeId=6&amp;version=1 on GitHub &amp; update the README</value>
+            </custom_field>
+            <custom_field id="22" name="Spine classification">
+                <value>Invertebrate</value>
+            </custom_field>
+            <custom_field id="23" name="Family">
+                <value>Nematode</value>
+            </custom_field>
+            <custom_field id="25" name="Specie">
+                <value>C. elegans</value>
+            </custom_field>
+            <custom_field id="24" name="Brain region">
+                <value>Neuromuscular system</value>
+            </custom_field>
+            <custom_field id="26" name="Cell type">
+                <value>Network model</value>
+            </custom_field>
+            <custom_field id="27" name="Bitbucket repository">
+                <value/>
+            </custom_field>
+            <custom_field id="28" name="PSICS support">
+                <value/>
+            </custom_field>
+            <custom_field id="29" name="NEST support">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="30" name="PyNN support">
+                <value/>
+            </custom_field>
+            <custom_field id="31" name="Brian support">
+                <value/>
+            </custom_field>
+            <custom_field id="33" name="NeuroLex Ids: Cells">
+                <value/>
+            </custom_field>
+            <custom_field id="34" name="Curation level">
+                <value>-1</value>
+            </custom_field>
+            <custom_field id="35" name="Endorsement">
+                <value>1</value>
+            </custom_field>
+        </custom_fields>
+        <created_on>2012-10-16T14:00:53Z</created_on>
+        <updated_on>2012-10-16T14:27:28Z</updated_on>
+    </project>
+</projects>

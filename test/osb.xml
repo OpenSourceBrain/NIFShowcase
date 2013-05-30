@@ -1,0 +1,82 @@
+<disco format="disco.interop" format-version="1.0">
+    <site-info
+        nif-id="nlx_152590"
+        site-name="OSB"
+        site-longname="Open Source Brain"
+        site-url="http://www.opensourcebrain.org"
+        version="" />
+
+    <interfaces>
+        <interface-group
+            id="osb"
+            name="OSB"
+            comment="Projects from OSB"
+            baseurl="http://www.opensourcebrain.org" 
+            revision-date="20130530" >
+	 
+            <interface
+                id="projects"
+                name="Projects"
+                comment="projects"
+                interface-type="data"
+                pk-separator="_"
+                targeturl="http://www.opensourcebrain.org/projects.xml?limit=1000">
+                
+                <parameters>
+                    <parameter IOtype="o" id="id" name="ID" datatype="integer" description=""/>
+                    <parameter IOtype="o" id="name"  name="Name" datatype="string"  precision="100" description="" />
+                    <parameter IOtype="o" id="identifier"  name="Identifier" datatype="string"  precision="255" description=""  pk="1"/>
+                    <parameter IOtype="o" id="description"  name="Description" datatype="string"  precision="5000" description="" />
+                    <parameter IOtype="o" id="created_on"  name="Created_on" datatype="string"  precision="100" description="" />
+                    <parameter IOtype="o" id="updated_on"  name="Updated_on" datatype="string"  precision="100" description="" />
+                </parameters>
+                <input/>
+                <output >
+                    <format
+                        type="xml"
+                        container="project" parse-type="sax"/>
+                    <parameter idref="id"     container="id"        container-type="integer" />
+                    <parameter idref="name"     container="name"        container-type="text" />
+                    <parameter idref="identifier"     container="identifier"        container-type="text" />
+                    <parameter idref="description"     container="description"        container-type="text" />
+                    <parameter idref="created_on"     container="created_on"        container-type="text" />
+                    <parameter idref="updated_on"     container="updated_on"        container-type="text" />
+                </output>
+            </interface>
+            
+            <interface
+                id="project_custom_fields"
+                name="Project custom fields"
+                comment="Project custom fields"
+                interface-type="data"
+                pk-hash="yes"
+                targeturl="http://www.opensourcebrain.org/projects.xml?limit=1000">
+                
+                <parameters>
+                    <parameter IOtype="o" id="wobib_exp_id"   name="Wobib Exp ID"    datatype="integer"                    description="" />
+                    <parameter IOtype="o" id="lobar_anatomy"  name="Lobar Anatomy"   datatype="string"  precision="200"    description="" />
+                    <parameter IOtype="o" id="funtional_area" name="Functional Area" datatype="string"  precision="200"    description="" />
+                    <parameter IOtype="o" id="x"              name="x"               datatype="double"                     description="" />
+                    <parameter IOtype="o" id="y"              name="y"               datatype="double"                     description="" />
+                    <parameter IOtype="o" id="z"              name="z"               datatype="double"                     description="" />
+                </parameters>
+                <input/>
+                <output >
+                    <format type="xml" container="project" item-container="custom_field" parse-type="sax" />
+                    
+                    <parameter idref="wobib_exp_id"           container="../woexp"        container-type="text" />
+                    <parameter idref="lobar_anatomy"          container="lobarAnatomy"    container-type="text" />
+                    <parameter idref="functional_area"        container="functionalArea"  container-type="text" />					          
+                    <parameter idref="x"                      container="x"               container-type="text" />
+                    <parameter idref="y"                      container="y"               container-type="text" />
+                    <parameter idref="z"                      container="z"               container-type="text" />
+                </output>
+            </interface>
+
+        </interface-group>
+        
+        
+		
+    </interfaces>
+  
+</disco>
