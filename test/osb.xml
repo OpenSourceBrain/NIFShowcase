@@ -35,7 +35,7 @@
                     <format
                         type="xml"
                         container="project" parse-type="sax"/>
-                    <parameter idref="id"     container="id"        container-type="integer" />
+                    <parameter idref="id"     container="id"        container-type="text" />
                     <parameter idref="name"     container="name"        container-type="text" />
                     <parameter idref="identifier"     container="identifier"        container-type="text" />
                     <parameter idref="description"     container="description"        container-type="text" />
@@ -63,8 +63,8 @@
                 <output >
                     <format type="xml" container="project" item-container="custom_fields/custom_field" parse-type="sax" />
                     
-                    <parameter idref="project_id" container="../../id" container-type="integer" />
-                    <parameter idref="id" container="@id" container-type="integer" />
+                    <parameter idref="project_id" container="../../id" container-type="text" />
+                    <parameter idref="id" container="@id" container-type="text" />
                     <parameter idref="name" container="@name" container-type="text" />
                     <parameter idref="value" container="value" container-type="text" />
                 </output>
